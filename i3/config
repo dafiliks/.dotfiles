@@ -189,7 +189,7 @@ bar {
     status_command i3status -c /home/df/.config/i3/i3status.conf
 	tray_output none
     position bottom
-	separator_symbol " >> "
+	separator_symbol " // "
 	font pango:Iosevka Nerd Font Mono 12
 }
 
