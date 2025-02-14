@@ -220,3 +220,7 @@ exec LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify
 
 for_window [class="pavucontrol"] move container to workspace 10
 exec pavucontrol
+
+exec --no-startup-id xset s off
+exec --no-startup-id xset -dpms
+exec --no-startup-id xset s noblank
