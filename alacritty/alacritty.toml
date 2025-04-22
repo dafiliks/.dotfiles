@@ -1,6 +1,5 @@
 [window]
-opacity = 0.9
-decorations = "none"
+opacity = 1
 
 [cursor]
 style = "Block"
