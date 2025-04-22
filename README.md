@@ -7,12 +7,3 @@ These are my dotfiles for Arch Linux. I currently do not have an install script 
 If you are new to Arch Linux, the link below is a good guide on how to install the OS.
 
 https://github.com/rtxx/arch-minimal-install
-
-# Additional
-
-I use DistroTube's wallpaper collection along with the archlinux-wallpaper official wallpaper collection.
-
-One setting that I do change for /etc is font properties. This is done by editing `/etc/environment` and appending:
-```bash
-FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
-```
