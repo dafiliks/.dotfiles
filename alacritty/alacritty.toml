@@ -1,3 +1,5 @@
+general.import = ["~/.config/alacritty/rose-pine.toml"]
+
 [window]
 opacity = 1
 
@@ -7,37 +9,9 @@ blink_interval = 500
 
 [colors]
   [colors.primary]
-  background = "#181818"
-  foreground = "#E4E4E4"
-
-  [colors.cursor]
-  text = "#52494E"
-  cursor = "#FFDD33"
-
-  [colors.selection]
-  background = "#FFFFFF"
-  text = "#52494E"
-
-  [colors.normal]
-  black = "#181818"
-  red = "#F43841"
-  green = "#73D936"
-  yellow = "#FFDD33"
-  blue = "#96A6C8"
-  magenta = "#9E95C7"
-  cyan = "#95A99F"
-  white = "#E4E4E4"
-
-  [colors.bright]
-  black = "#52494E"
-  red = "#FF4F58"
-  green = "#73D936"
-  yellow = "#FFDD33"
-  blue = "#52494E"
-  magenta = "#9E95C7"
-  cyan = "#95A99F"
-  white = "#F5F5F5"
+  background = "#000000"
+  foreground = "#FFFFFF"
 
 [font]
-  normal = { family = "Iosevka" }
-  size = 20
+  normal = { family = "JetBrains Mono" }
+  size = 22
