@@ -1,17 +1,16 @@
 general.import = ["~/.config/alacritty/rose-pine.toml"]
 
 [window]
-opacity = 1
+opacity = 0.9
 
 [cursor]
 style = "Block"
 blink_interval = 500
 
 [colors]
-  [colors.primary]
-  background = "#000000"
-  foreground = "#FFFFFF"
+[colors.primary]
+background = "#141414"
 
 [font]
-  normal = { family = "JetBrains Mono" }
-  size = 22
+normal = { family = "Comic Code" }
+size = 18
