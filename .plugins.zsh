@@ -24,7 +24,6 @@ bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
 if [ ! -d "$HOME/.zsh/fzf-dir-navigator" ]; then
-    echo "Installing fzf dir navigator."
     git clone https://github.com/KulkarniKaustubh/fzf-dir-navigator.git $HOME/.zsh/fzf-dir-navigator
 fi
 

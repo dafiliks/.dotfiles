@@ -1,3 +1,7 @@
+if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
+    exec startx
+fi
+
 if [ -z "$TMUX" ] && [ -n "$DISPLAY" ]; then
     tmux attach -t tmux || tmux new -s tmux
 fi

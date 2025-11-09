@@ -1,16 +1,21 @@
-general.import = ["~/.config/alacritty/rose-pine.toml"]
-
-[window]
-opacity = 0.9
-
-[cursor]
-style = "Block"
-blink_interval = 500
-
-[colors]
-[colors.primary]
-background = "#141414"
+[env]
+TERM = "screen-256color"
 
 [font]
-normal = { family = "Comic Code" }
-size = 18
+size = 16
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[window]
+opacity = 1.0
+decorations = "none"
+dynamic_padding = false
+
+[window.padding]
+x = 0
+y = 0
+
+[general]
+import = ["themes/vague.toml"]
